@@ -33,17 +33,17 @@
 
   <text x="28" y="82" clip-path="url(#typed)"><tspan class="p">$</tspan> curl -s localhost:8080/whoami | jq</text>
 
-  <g style="white-space:pre" xml:space="preserve">
+  <g>
     <text class="ln" x="28" y="116" style="animation-delay:1.3s">{</text>
-    <text class="ln" x="28" y="140" style="animation-delay:1.45s">  <tspan class="k">"name"</tspan>:     <tspan class="s">"Sanjana Kalarickal"</tspan>,</text>
-    <text class="ln" x="28" y="164" style="animation-delay:1.6s">  <tspan class="k">"role"</tspan>:     <tspan class="s">"backend engineer"</tspan>,</text>
-    <text class="ln" x="28" y="188" style="animation-delay:1.75s">  <tspan class="k">"school"</tspan>:   <tspan class="s">"UC San Diego, B.S. CS (Dec 2027)"</tspan>,</text>
-    <text class="ln" x="28" y="212" style="animation-delay:1.9s">  <tspan class="k">"now"</tspan>:      <tspan class="s">"SWE intern @ Y STEM and Chess"</tspan>,</text>
-    <text class="ln" x="28" y="236" style="animation-delay:2.05s">  <tspan class="k">"obsessed"</tspan>: [<tspan class="s">"p99 latency"</tspan>, <tspan class="s">"idempotent writes"</tspan>, <tspan class="s">"warm caches"</tspan>],</text>
-    <text class="ln" x="28" y="260" style="animation-delay:2.2s">  <tspan class="k">"stack"</tspan>:    [<tspan class="s">"FastAPI"</tspan>, <tspan class="s">"Node"</tspan>, <tspan class="s">"Postgres"</tspan>, <tspan class="s">"Socket.io"</tspan>, <tspan class="s">"LangGraph"</tspan>],</text>
-    <text class="ln" x="28" y="284" style="animation-delay:2.35s">  <tspan class="k">"open_to"</tspan>:  <tspan class="s">"SWE roles, summer 2027"</tspan></text>
+    <text class="ln" x="46" y="140" style="animation-delay:1.45s"><tspan class="k">"name"</tspan>: <tspan class="s">"Sanjana Kalarickal"</tspan>,</text>
+    <text class="ln" x="46" y="164" style="animation-delay:1.6s"><tspan class="k">"role"</tspan>: <tspan class="s">"backend engineer"</tspan>,</text>
+    <text class="ln" x="46" y="188" style="animation-delay:1.75s"><tspan class="k">"school"</tspan>: <tspan class="s">"UC San Diego, B.S. CS (Dec 2027)"</tspan>,</text>
+    <text class="ln" x="46" y="212" style="animation-delay:1.9s"><tspan class="k">"now"</tspan>: <tspan class="s">"AIDE @ CSES Innovate, writing the paper"</tspan>,</text>
+    <text class="ln" x="46" y="236" style="animation-delay:2.05s"><tspan class="k">"hobbies"</tspan>: [<tspan class="s">"postmortems for fun"</tspan>, <tspan class="s">"losing to my own chess puzzles"</tspan>, <tspan class="s">"boba runs"</tspan>],</text>
+    <text class="ln" x="46" y="260" style="animation-delay:2.2s"><tspan class="k">"stack"</tspan>: [<tspan class="s">"FastAPI"</tspan>, <tspan class="s">"Node"</tspan>, <tspan class="s">"Postgres"</tspan>, <tspan class="s">"Socket.io"</tspan>, <tspan class="s">"LangGraph"</tspan>],</text>
+    <text class="ln" x="46" y="284" style="animation-delay:2.35s"><tspan class="k">"open_to"</tspan>: <tspan class="s">"SWE roles, summer 2027"</tspan></text>
     <text class="ln" x="28" y="308" style="animation-delay:2.5s">}</text>
-    <text class="ln" x="28" y="344" style="animation-delay:2.8s"><tspan class="ok">200 OK</tspan><tspan class="d">  ·  38ms  ·  served warm</tspan> <tspan class="p">♡</tspan></text>
+    <text class="ln" x="28" y="344" style="animation-delay:2.8s"><tspan class="ok">200 OK</tspan><tspan class="d"> · 38ms · served warm</tspan> <tspan class="p">♡</tspan></text>
   </g>
   <rect class="cursor" x="300" y="331" width="9" height="17" fill="#ff8fb8"/>
 </svg>

@@ -3,7 +3,7 @@
 </a>
 
 <p align="center">
-  <a href="https://sanjana1976.github.io/personal_web/"><img src="assets/btn-portfolio.svg" alt="Portfolio" height="44"></a>
+  <a href="https://sanjana1976.github.io/personal_web/"><img src="assets/btn-website.svg" alt="Website" height="44"></a>
   <a href="https://www.linkedin.com/in/s1976"><img src="assets/btn-linkedin.svg" alt="LinkedIn" height="44"></a>
   <a href="https://sanjana1976.github.io/personal_web/Sanjana_Kalarickal_Resume.pdf"><img src="assets/btn-resume.svg" alt="Résumé" height="44"></a>
   <a href="mailto:skalarickal@ucsd.edu"><img src="assets/btn-email.svg" alt="Email me" height="44"></a>
@@ -11,19 +11,11 @@
 
 ### About me 🌷
 
-- 🎓 Computer Science at **[UC San Diego](https://ucsd.edu)**, graduating Dec 2027
-- ⚡ Backend-first: APIs, Postgres & Mongo, caching, concurrency, and anything that has to answer in milliseconds
-- ♟️ SWE intern at **Y STEM and Chess**, building a real-time Socket.io puzzle trainer with an LLM tutor
-- 🎙️ Co-lead of **AIDE** at CSES Innovate: voice-to-code in VS Code, cut from **3–5 min to 2–5 s** on CPU alone
-- 💳 Shipped Stripe checkout at **Brainworks** with idempotency keys: 55 live orders, **0 double-charges**
-- 💖 Founded a Girls Who Code chapter (50+ members) and tutor game dev at BoB
-- 📫 Open to SWE roles starting **summer 2027**, so say hi at skalarickal@ucsd.edu
-
-<details>
-<summary>💻 <b>curl my API</b> <sub>(click me)</sub></summary>
-<br>
-<p align="center"><img src="assets/whoami.svg" alt="curl localhost:8080/whoami returns a JSON profile" width="720"></p>
-</details>
+- Computer Science at **[UC San Diego](https://ucsd.edu)**, graduating Dec 2027
+- Specializing in backend systems, with a research interest in **tail latency across multi-tier systems**, especially pipelines where AI models and agents sit on the critical path
+- Currently:
+  - **AIDE** at CSES Innovate: voice-to-code for VS Code (**3–5 min → 2–5 s**, CPU only); now writing the research paper and running the study
+  - Prev. full-stack SWE at **Y STEM and Chess**, summer '26
 
 ---
 
@@ -76,6 +68,15 @@
 </details>
 
 <p align="center">
-  <sub>ask me about: shaving p99s · why your webhook fired twice · fan-out vs. one big prompt</sub><br><br>
+  <sub>ask me about: shaving p99s · why your webhook fired twice · fan-out vs. one big prompt</sub>
+</p>
+
+<details>
+<summary><sub><code>$ curl whoami</code></sub></summary>
+<br>
+<p align="center"><img src="assets/whoami.svg" alt="curl localhost:8080/whoami returns a JSON profile" width="720"></p>
+</details>
+
+<p align="center">
   <img src="https://komarev.com/ghpvc/?username=sanjana1976&label=visitors&color=ff8fb8&style=flat-square" alt="profile views">
 </p>

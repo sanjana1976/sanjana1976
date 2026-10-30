@@ -41,12 +41,19 @@ def fetch(login, token):
         return json.load(resp)["data"]["user"]
 
 
+# Markup and notebooks aren't what I write day to day
+SKIP = {"HTML", "CSS", "SCSS", "Jupyter Notebook", "Makefile", "Dockerfile", "Shell", "Batchfile", "PowerShell"}
+
+
 def top_languages(user, n=6):
+    # sqrt of bytes per repo, so one repo with vendored JS can't drown out everything else
     totals = {}
     for repo in user["repositories"]["nodes"]:
         for edge in repo["languages"]["edges"]:
             name = edge["node"]["name"]
-            totals[name] = totals.get(name, 0) + edge["size"]
+            if name in SKIP:
+                continue
+            totals[name] = totals.get(name, 0) + edge["size"] ** 0.5
     ranked = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)[:n]
     total = sum(size for _, size in ranked) or 1
     return [(name, size / total) for name, size in ranked]

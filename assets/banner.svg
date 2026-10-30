@@ -1,18 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title">
   <title id="title">Backend Developer, Sanjana Kalarickal. Open to SWE roles, summer 2027. skalarickal@ucsd.edu</title>
-  <defs>
-    <radialGradient id="b1" cx="86%" cy="18%" r="45%"><stop offset="0" stop-color="#ff8fb8" stop-opacity=".30"/><stop offset="1" stop-color="#ff8fb8" stop-opacity="0"/></radialGradient>
-    <radialGradient id="b2" cx="8%" cy="100%" r="45%"><stop offset="0" stop-color="#b9a2ff" stop-opacity=".22"/><stop offset="1" stop-color="#b9a2ff" stop-opacity="0"/></radialGradient>
-    <radialGradient id="b3" cx="55%" cy="0%" r="35%"><stop offset="0" stop-color="#ffad85" stop-opacity=".14"/><stop offset="1" stop-color="#ffad85" stop-opacity="0"/></radialGradient>
-    <linearGradient id="edge" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#ff8fb8"/><stop offset=".5" stop-color="#b9a2ff"/><stop offset="1" stop-color="#ffad85"/>
-    </linearGradient>
-    <linearGradient id="hgrad" x1="0" x2="1">
-      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffd6e5"/>
-    </linearGradient>
-  </defs>
   <style>
-    .h1 { font: 800 70px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: url(#hgrad); letter-spacing: -.01em; }
+    .h1 { font: 800 70px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #fbf4f7; letter-spacing: -.01em; }
     .name { font: italic 500 44px Georgia, 'Times New Roman', serif; fill: #ff8fb8; }
     .contact { font: 500 16px ui-monospace, SFMono-Regular, Consolas, Menlo, monospace; fill: #eadde3; }
     .status { font: 500 16px ui-monospace, SFMono-Regular, Consolas, Menlo, monospace; fill: #9ee6c9; }
@@ -43,10 +32,7 @@
 
   <!-- card -->
   <rect x="2" y="2" width="1196" height="416" rx="26" fill="#141016"/>
-  <rect x="2" y="2" width="1196" height="416" rx="26" fill="url(#b1)"/>
-  <rect x="2" y="2" width="1196" height="416" rx="26" fill="url(#b2)"/>
-  <rect x="2" y="2" width="1196" height="416" rx="26" fill="url(#b3)"/>
-  <rect x="2" y="2" width="1196" height="416" rx="26" fill="none" stroke="url(#edge)" stroke-width="3" opacity=".75"/>
+  <rect x="2" y="2" width="1196" height="416" rx="26" fill="none" stroke="#2e2429" stroke-width="2"/>
 
   <!-- polka dots, top right -->
   <g fill="#b9a2ff" opacity=".18">
@@ -61,11 +47,7 @@
 
   <!-- divider -->
   <g class="rise" style="animation-delay:.35s">
-    <!-- a gradient stroke on a zero-height line needs user-space units -->
-    <linearGradient id="rule" gradientUnits="userSpaceOnUse" x1="68" y1="0" x2="236" y2="0">
-      <stop offset="0" stop-color="#ff8fb8"/><stop offset=".5" stop-color="#b9a2ff"/><stop offset="1" stop-color="#ffad85"/>
-    </linearGradient>
-    <line x1="68" y1="226" x2="236" y2="226" stroke="url(#rule)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="68" y1="226" x2="236" y2="226" stroke="#ff8fb8" stroke-width="3" stroke-linecap="round"/>
     <g transform="translate(252 226)"><path class="spark" d="M0-7 1.6-1.6 7 0 1.6 1.6 0 7-1.6 1.6-7 0-1.6-1.6Z" fill="#ffc2d8"/></g>
   </g>
 

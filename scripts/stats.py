@@ -97,7 +97,6 @@ def render(user):
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="GitHub stats">
   <defs>
-    <radialGradient id="glow" cx="0%" cy="0%" r="80%"><stop offset="0" stop-color="#b9a2ff" stop-opacity=".18"/><stop offset="1" stop-color="#b9a2ff" stop-opacity="0"/></radialGradient>
     <clipPath id="bar"><rect x="268" y="66" width="{width}" height="10" rx="5"/></clipPath>
   </defs>
   <style>
@@ -112,8 +111,7 @@ def render(user):
     .grow {{ transform-box: fill-box; transform-origin: left; animation: grow 1.2s cubic-bezier(.2,.7,.2,1) backwards; }}
     @keyframes grow {{ from {{ transform: scaleX(0); }} }}
   </style>
-  <rect x="1" y="1" width="493" height="193" rx="16" fill="#141016"/>
-  <rect x="1" y="1" width="493" height="193" rx="16" fill="url(#glow)" stroke="#ff8fb8" stroke-opacity=".4" stroke-width="2"/>
+  <rect x="1" y="1" width="493" height="193" rx="16" fill="#141016" stroke="#2e2429" stroke-width="2"/>
   <text class="title" x="26" y="38">&#10047; Sanjana's GitHub stats</text>
   {''.join(rows)}
   <line x1="250" y1="58" x2="250" y2="172" stroke="#3a2a32"/>

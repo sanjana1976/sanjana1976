@@ -48,7 +48,7 @@
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/sanjana1976/sanjana1976/output/stats.svg" alt="GitHub stats and top languages" width="49%">
-  <img src="https://streak-stats.demolab.com?user=sanjana1976&background=141016&border=ff8fb8&stroke=3a2a32&ring=ff8fb8&fire=ffad85&currStreakNum=fbf4f7&sideNums=fbf4f7&currStreakLabel=ff8fb8&sideLabels=b9a2ff&dates=8f7b85&border_radius=16" alt="Contribution streak" width="49%">
+  <img src="https://streak-stats.demolab.com?user=sanjana1976&background=141016&border=2e2429&stroke=2e2429&ring=ff8fb8&fire=ffad85&currStreakNum=fbf4f7&sideNums=fbf4f7&currStreakLabel=ff8fb8&sideLabels=b9a2ff&dates=8f7b85&border_radius=16" alt="Contribution streak" width="49%">
 </p>
 
 <picture>

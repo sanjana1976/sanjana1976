@@ -4,7 +4,8 @@
     .g { transform-box: fill-box; transform-origin: center; animation: wiggle 3s ease-in-out infinite; }
     @keyframes wiggle { 0%, 80%, 100% { transform: rotate(0); } 85% { transform: rotate(-12deg); } 90% { transform: rotate(10deg); } 95% { transform: rotate(-6deg); } }
   </style>
-  <rect x="1" y="1" width="148" height="46" rx="23" fill="#ffad85" fill-opacity=".12" stroke="#ffad85" stroke-opacity=".7" stroke-width="1.5"/>
+  <rect x="1" y="1" width="148" height="46" rx="23" fill="#141016"/>
+  <rect x="1" y="1" width="148" height="46" rx="23" fill="#ffad85" fill-opacity=".14" stroke="#ffad85" stroke-opacity=".7" stroke-width="1.5"/>
   <g class="g"><g fill="none" stroke="#ffad85" stroke-width="1.8" stroke-linejoin="round"><path d="M24 15h9l5 5v13H24Z"/><path d="M33 15v5h5"/><line x1="27" y1="25" x2="35" y2="25"/><line x1="27" y1="29" x2="33" y2="29"/></g></g>
   <text class="t" x="48" y="29">R&#233;sum&#233;</text>
 </svg>

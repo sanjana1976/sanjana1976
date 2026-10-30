@@ -46,14 +46,15 @@ SKIP = {"HTML", "CSS", "SCSS", "Jupyter Notebook", "Makefile", "Dockerfile", "Sh
 
 
 def top_languages(user, n=6):
-    # sqrt of bytes per repo, so one repo with vendored JS can't drown out everything else
+    # every repo gets one equal vote split by its byte shares, so one repo with
+    # committed node_modules can't drown out everything else
     totals = {}
     for repo in user["repositories"]["nodes"]:
-        for edge in repo["languages"]["edges"]:
+        edges = [e for e in repo["languages"]["edges"] if e["node"]["name"] not in SKIP]
+        repo_total = sum(e["size"] for e in edges)
+        for edge in edges:
             name = edge["node"]["name"]
-            if name in SKIP:
-                continue
-            totals[name] = totals.get(name, 0) + edge["size"] ** 0.5
+            totals[name] = totals.get(name, 0) + edge["size"] / repo_total
     ranked = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)[:n]
     total = sum(size for _, size in ranked) or 1
     return [(name, size / total) for name, size in ranked]

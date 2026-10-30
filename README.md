@@ -1,23 +1,33 @@
 <a href="https://sanjana1976.github.io/personal_web/">
-  <img src="assets/banner.svg" alt="Sanjana Kalarickal, backend engineer focused on speed" width="100%">
+  <img src="assets/banner.svg" alt="Backend Developer, Sanjana Kalarickal" width="100%">
 </a>
 
 <p align="center">
-  <a href="https://sanjana1976.github.io/personal_web/"><img src="https://img.shields.io/badge/website-sanjana1976.github.io-ff8fb8?style=flat-square&labelColor=1a1418" alt="Website"></a>
-  <a href="https://www.linkedin.com/in/s1976"><img src="https://img.shields.io/badge/LinkedIn-s1976-ff8fb8?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1418" alt="LinkedIn"></a>
-  <a href="mailto:skalarickal@ucsd.edu"><img src="https://img.shields.io/badge/email-skalarickal@ucsd.edu-ff8fb8?style=flat-square&logo=gmail&logoColor=white&labelColor=1a1418" alt="Email"></a>
-  <a href="https://sanjana1976.github.io/personal_web/Sanjana_Kalarickal_Resume.pdf"><img src="https://img.shields.io/badge/r%C3%A9sum%C3%A9-PDF-ff8fb8?style=flat-square&logo=readthedocs&logoColor=white&labelColor=1a1418" alt="Résumé"></a>
+  <a href="https://sanjana1976.github.io/personal_web/"><img src="assets/btn-portfolio.svg" alt="Portfolio" height="44"></a>
+  <a href="https://www.linkedin.com/in/s1976"><img src="assets/btn-linkedin.svg" alt="LinkedIn" height="44"></a>
+  <a href="https://sanjana1976.github.io/personal_web/Sanjana_Kalarickal_Resume.pdf"><img src="assets/btn-resume.svg" alt="Résumé" height="44"></a>
+  <a href="mailto:skalarickal@ucsd.edu"><img src="assets/btn-email.svg" alt="Email me" height="44"></a>
 </p>
 
-<p align="center">
-  <img src="assets/whoami.svg" alt="curl localhost:8080/whoami returns a JSON profile" width="760">
-</p>
+### About me 🌷
 
-### ⚡ how I build
+- 🎓 Computer Science at **[UC San Diego](https://ucsd.edu)**, graduating Dec 2027
+- ⚡ Backend-first: APIs, Postgres & Mongo, caching, concurrency, and anything that has to answer in milliseconds
+- ♟️ SWE intern at **Y STEM and Chess**, building a real-time Socket.io puzzle trainer with an LLM tutor
+- 🎙️ Co-lead of **AIDE** at CSES Innovate: voice-to-code in VS Code, cut from **3–5 min to 2–5 s** on CPU alone
+- 💳 Shipped Stripe checkout at **Brainworks** with idempotency keys: 55 live orders, **0 double-charges**
+- 💖 Founded a Girls Who Code chapter (50+ members) and tutor game dev at BoB
+- 📫 Open to SWE roles starting **summer 2027**, so say hi at skalarickal@ucsd.edu
 
-I work on backends where latency is a feature. In practice that means profiling before optimizing, keeping hot paths warm, fanning independent work out in parallel, and making every write idempotent so a retry is boring instead of a double-charge.
+<details>
+<summary>💻 <b>curl my API</b> <sub>(click me)</sub></summary>
+<br>
+<p align="center"><img src="assets/whoami.svg" alt="curl localhost:8080/whoami returns a JSON profile" width="720"></p>
+</details>
 
-### 🌸 featured work
+---
+
+### Things I've built 🛠️
 
 <p align="center">
   <a href="https://github.com/sanjana1976/LitAgent_Phase2"><img src="assets/card-litsynth.svg" alt="LitSynth" width="49%"></a>
@@ -27,7 +37,7 @@ I work on backends where latency is a feature. In practice that means profiling 
 </p>
 
 <details>
-<summary><b>🔍 How they work under the hood</b> <sub>(click to expand)</sub></summary>
+<summary>🔍 <b>How they work under the hood</b></summary>
 <br>
 
 **[LitSynth](https://github.com/sanjana1976/LitAgent_Phase2)**: an autonomous research agent. It breaks a question into sub-queries, searches arXiv, Semantic Scholar, DBLP and Crossref in parallel, extracts each paper's claims and flags where sources contradict each other. It runs as a checkpointed LangGraph state machine that fans retrieval, extraction and contradiction checks across workers (6.5 min → ~70 s). A writer/critic loop retracts any claim that fails a citation whitelist.
@@ -40,23 +50,14 @@ I work on backends where latency is a feature. In practice that means profiling 
 
 </details>
 
-### 🧭 where I've shipped
+---
 
-| | what I built | the number |
-|:--|:--|:--|
-| ♟️ **Y STEM and Chess**<br><sub>SWE Intern · Jun 2026 – now</sub> | Real-time puzzle trainer on Socket.io, where the server pushes puzzles to a whole lesson and an LLM tutor reads the live board state. Also ported video sessions from Angular to React on Agora. | signup coverage **10% → 87%** |
-| 🎙️ **CSES Innovate · AIDE**<br><sub>Co-Team Lead · Aug 2025 – now</sub> | Voice-to-code for VS Code: a speech → intent → codegen pipeline of three fine-tuned Hugging Face models served locally behind FastAPI, with warm inference on CPU only. | **3–5 min → 2–5 s**, 98.8% accuracy |
-| 💳 **Brainworks Academy**<br><sub>Full-Stack Intern · Mar – May 2026</sub> | Stripe checkout with idempotency keys, and async webhooks with timeouts and de-duplication, so late or repeated events can't corrupt orders. | 55 live orders, **0 double-charges** |
-
-### 🧰 toolbox
+### GitHub stats 📊
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,java,ts,js,nodejs,express,fastapi,postgres,supabase,mongodb,sqlite,react&perline=12" alt="Python, Java, TypeScript, JavaScript, Node.js, Express, FastAPI, PostgreSQL, Supabase, MongoDB, SQLite, React"><br>
-  <img src="https://skillicons.dev/icons?i=tailwind,electron,aws,vercel,docker,githubactions,git,pytorch&perline=12" alt="Tailwind, Electron, AWS, Vercel, Docker, GitHub Actions, Git, PyTorch">
+  <img src="https://raw.githubusercontent.com/sanjana1976/sanjana1976/output/stats.svg" alt="GitHub stats and top languages" width="49%">
+  <img src="https://streak-stats.demolab.com?user=sanjana1976&background=141016&border=ff8fb8&stroke=3a2a32&ring=ff8fb8&fire=ffad85&currStreakNum=fbf4f7&sideNums=fbf4f7&currStreakLabel=ff8fb8&sideLabels=b9a2ff&dates=8f7b85&border_radius=16" alt="Contribution streak" width="49%">
 </p>
-<p align="center"><sub>plus LangGraph · Hugging Face · FAISS · Socket.io · Stripe · pytest · Vitest · JUnit</sub></p>
-
-### 🐍 my commits, eaten daily
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sanjana1976/sanjana1976/output/snake-dark.svg">
@@ -64,7 +65,15 @@ I work on backends where latency is a feature. In practice that means profiling 
   <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/sanjana1976/sanjana1976/output/snake-light.svg">
 </picture>
 
+<details>
+<summary>🧰 <b>Full toolbox</b></summary>
 <br>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,java,ts,js,nodejs,express,fastapi,postgres,supabase,mongodb,sqlite,react&perline=12" alt="Python, Java, TypeScript, JavaScript, Node.js, Express, FastAPI, PostgreSQL, Supabase, MongoDB, SQLite, React"><br>
+  <img src="https://skillicons.dev/icons?i=tailwind,electron,aws,vercel,docker,githubactions,git,pytorch&perline=12" alt="Tailwind, Electron, AWS, Vercel, Docker, GitHub Actions, Git, PyTorch">
+</p>
+<p align="center"><sub>plus LangGraph · Hugging Face · FAISS · Socket.io · Stripe · pytest · Vitest · JUnit</sub></p>
+</details>
 
 <p align="center">
   <sub>ask me about: shaving p99s · why your webhook fired twice · fan-out vs. one big prompt</sub><br><br>

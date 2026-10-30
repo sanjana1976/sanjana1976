@@ -2,25 +2,27 @@
   <title id="title">Menu Buddy: Photograph a menu in any language and get every dish explained, allergens included.</title>
   <defs>
     <linearGradient id="sheen" x1="0" x2="1">
-      <stop offset="0" stop-color="#ff8fb8" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#ff8fb8" stop-opacity=".14"/>
-      <stop offset="1" stop-color="#ff8fb8" stop-opacity="0"/>
+      <stop offset="0" stop-color="#ffad85" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#ffad85" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#ffad85" stop-opacity="0"/>
     </linearGradient>
+    <radialGradient id="glow" cx="100%" cy="0%" r="70%"><stop offset="0" stop-color="#ffad85" stop-opacity=".22"/><stop offset="1" stop-color="#ffad85" stop-opacity="0"/></radialGradient>
     <clipPath id="card"><rect x="1" y="1" width="438" height="248" rx="18"/></clipPath>
   </defs>
   <style>
-    .label { font: 600 11.5px ui-monospace, SFMono-Regular, Consolas, Menlo, monospace; fill: #ff9ec4; letter-spacing: .14em; }
+    .label { font: 600 11.5px ui-monospace, SFMono-Regular, Consolas, Menlo, monospace; fill: #ffad85; letter-spacing: .14em; }
     .name { font: 500 30px Georgia, 'Times New Roman', serif; fill: #fbf4f7; }
     .line { font: 400 14.5px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #cbb8c1; }
-    .stat { font: italic 500 24px Georgia, 'Times New Roman', serif; fill: #ff8fb8; }
+    .stat { font: italic 500 24px Georgia, 'Times New Roman', serif; fill: #ffad85; }
     .statl { font: 400 12.5px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8f7b85; }
-    .tag { font: 500 11.5px ui-monospace, SFMono-Regular, Consolas, Menlo, monospace; fill: #ffc2d8; }
-    .arrow { font: 600 20px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #ff8fb8; animation: nudge 2.4s ease-in-out infinite; }
+    .tag { font: 500 11.5px ui-monospace, SFMono-Regular, Consolas, Menlo, monospace; fill: #ffad85; }
+    .arrow { font: 600 20px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #ffad85; animation: nudge 2.4s ease-in-out infinite; }
     @keyframes nudge { 50% { transform: translate(3px, -3px); } }
     .sweep { animation: sweep 5s ease-in-out infinite; }
     @keyframes sweep { 0% { transform: translateX(-460px); } 45%, 100% { transform: translateX(460px); } }
   </style>
-  <rect x="1" y="1" width="438" height="248" rx="18" fill="#161216" stroke="#3a2a32" stroke-width="2"/>
+  <rect x="1" y="1" width="438" height="248" rx="18" fill="#161216"/>
+  <rect x="1" y="1" width="438" height="248" rx="18" fill="url(#glow)" stroke="#ffad85" stroke-opacity=".45" stroke-width="2"/>
   <g clip-path="url(#card)"><g transform="skewX(-12)"><rect class="sweep" x="0" y="0" width="300" height="250" fill="url(#sheen)"/></g></g>
   <text class="label" x="28" y="40">VISION + API</text>
   <text class="arrow" x="398" y="44">&#8599;</text>
@@ -29,12 +31,12 @@
   <text class="line" x="28" y="130">every dish explained, allergens included.</text>
   <text class="stat" x="28" y="170">instant &#183; $0</text>
   <text class="statl" x="28" y="190">repeat scans, served from an image-hash cache</text>
-  <rect x="28" y="206" width="56" height="22" rx="11" fill="#2a1a22" stroke="#4d2e3d"/>
+  <rect x="28" y="206" width="56" height="22" rx="11" fill="#ffad85" fill-opacity=".12" stroke="#ffad85" stroke-opacity=".5"/>
   <text class="tag" x="56" y="221" text-anchor="middle">React</text>
-  <rect x="92" y="206" width="92" height="22" rx="11" fill="#2a1a22" stroke="#4d2e3d"/>
+  <rect x="92" y="206" width="92" height="22" rx="11" fill="#ffad85" fill-opacity=".12" stroke="#ffad85" stroke-opacity=".5"/>
   <text class="tag" x="138" y="221" text-anchor="middle">TypeScript</text>
-  <rect x="192" y="206" width="70" height="22" rx="11" fill="#2a1a22" stroke="#4d2e3d"/>
+  <rect x="192" y="206" width="70" height="22" rx="11" fill="#ffad85" fill-opacity=".12" stroke="#ffad85" stroke-opacity=".5"/>
   <text class="tag" x="227" y="221" text-anchor="middle">Express</text>
-  <rect x="270" y="206" width="63" height="22" rx="11" fill="#2a1a22" stroke="#4d2e3d"/>
+  <rect x="270" y="206" width="63" height="22" rx="11" fill="#ffad85" fill-opacity=".12" stroke="#ffad85" stroke-opacity=".5"/>
   <text class="tag" x="301.5" y="221" text-anchor="middle">OpenAI</text>
 </svg>

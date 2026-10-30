@@ -3,8 +3,8 @@
   <style>
     text { font: 15px ui-monospace, SFMono-Regular, Consolas, Menlo, monospace; fill: #eadde3; }
     .p { fill: #ff8fb8; }
-    .k { fill: #ffc2d8; }
-    .s { fill: #c9e7d1; }
+    .k { fill: #c4b1ff; }
+    .s { fill: #9ee6c9; }
     .d { fill: #8a7680; }
     .ok { fill: #8ce99a; font-weight: 600; }
     .bar { font-size: 13px; fill: #8a7680; }
@@ -27,8 +27,8 @@
   <rect x="1" y="1" width="818" height="378" rx="16" fill="#121012" stroke="#3a2a32" stroke-width="2"/>
   <path d="M1 17A16 16 0 0 1 17 1H803A16 16 0 0 1 819 17V40H1Z" fill="#1c1519"/>
   <circle cx="26" cy="21" r="6" fill="#ff6fa3"/>
-  <circle cx="46" cy="21" r="6" fill="#ffc2d8"/>
-  <circle cx="66" cy="21" r="6" fill="#4a3540"/>
+  <circle cx="46" cy="21" r="6" fill="#ffad85"/>
+  <circle cx="66" cy="21" r="6" fill="#9ee6c9"/>
   <text class="bar" x="410" y="26" text-anchor="middle">sanjana@ucsd: ~</text>
 
   <text x="28" y="82" clip-path="url(#typed)"><tspan class="p">$</tspan> curl -s localhost:8080/whoami | jq</text>

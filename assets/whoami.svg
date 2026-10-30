@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="380" viewBox="0 0 820 380" role="img" aria-labelledby="title">
+  <title id="title">curl localhost:8080/whoami returns a JSON profile: Sanjana Kalarickal, backend engineer, UC San Diego CS 2027, open to SWE roles starting summer 2027</title>
+  <style>
+    text { font: 15px ui-monospace, SFMono-Regular, Consolas, Menlo, monospace; fill: #eadde3; }
+    .p { fill: #ff8fb8; }
+    .k { fill: #ffc2d8; }
+    .s { fill: #c9e7d1; }
+    .d { fill: #8a7680; }
+    .ok { fill: #8ce99a; font-weight: 600; }
+    .bar { font-size: 13px; fill: #8a7680; }
+
+    /* lines print one after another; only the start frame is set, so a static render shows the full output */
+    .ln { animation: print .25s ease-out backwards; }
+    @keyframes print { from { opacity: 0; transform: translateX(-6px); } }
+
+    .cursor { animation: blink 1s steps(2) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <defs>
+    <clipPath id="typed">
+      <rect x="0" y="62" width="820" height="30">
+        <animate attributeName="width" values="40;470" dur="1.1s" begin="0s" fill="freeze" calcMode="spline" keySplines=".3 0 .3 1"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="818" height="378" rx="16" fill="#121012" stroke="#3a2a32" stroke-width="2"/>
+  <path d="M1 17A16 16 0 0 1 17 1H803A16 16 0 0 1 819 17V40H1Z" fill="#1c1519"/>
+  <circle cx="26" cy="21" r="6" fill="#ff6fa3"/>
+  <circle cx="46" cy="21" r="6" fill="#ffc2d8"/>
+  <circle cx="66" cy="21" r="6" fill="#4a3540"/>
+  <text class="bar" x="410" y="26" text-anchor="middle">sanjana@ucsd: ~</text>
+
+  <text x="28" y="82" clip-path="url(#typed)"><tspan class="p">$</tspan> curl -s localhost:8080/whoami | jq</text>
+
+  <g style="white-space:pre" xml:space="preserve">
+    <text class="ln" x="28" y="116" style="animation-delay:1.3s">{</text>
+    <text class="ln" x="28" y="140" style="animation-delay:1.45s">  <tspan class="k">"name"</tspan>:     <tspan class="s">"Sanjana Kalarickal"</tspan>,</text>
+    <text class="ln" x="28" y="164" style="animation-delay:1.6s">  <tspan class="k">"role"</tspan>:     <tspan class="s">"backend engineer"</tspan>,</text>
+    <text class="ln" x="28" y="188" style="animation-delay:1.75s">  <tspan class="k">"school"</tspan>:   <tspan class="s">"UC San Diego, B.S. CS (Dec 2027)"</tspan>,</text>
+    <text class="ln" x="28" y="212" style="animation-delay:1.9s">  <tspan class="k">"now"</tspan>:      <tspan class="s">"SWE intern @ Y STEM and Chess"</tspan>,</text>
+    <text class="ln" x="28" y="236" style="animation-delay:2.05s">  <tspan class="k">"obsessed"</tspan>: [<tspan class="s">"p99 latency"</tspan>, <tspan class="s">"idempotent writes"</tspan>, <tspan class="s">"warm caches"</tspan>],</text>
+    <text class="ln" x="28" y="260" style="animation-delay:2.2s">  <tspan class="k">"stack"</tspan>:    [<tspan class="s">"FastAPI"</tspan>, <tspan class="s">"Node"</tspan>, <tspan class="s">"Postgres"</tspan>, <tspan class="s">"Socket.io"</tspan>, <tspan class="s">"LangGraph"</tspan>],</text>
+    <text class="ln" x="28" y="284" style="animation-delay:2.35s">  <tspan class="k">"open_to"</tspan>:  <tspan class="s">"SWE roles, summer 2027"</tspan></text>
+    <text class="ln" x="28" y="308" style="animation-delay:2.5s">}</text>
+    <text class="ln" x="28" y="344" style="animation-delay:2.8s"><tspan class="ok">200 OK</tspan><tspan class="d">  ·  38ms  ·  served warm</tspan> <tspan class="p">♡</tspan></text>
+  </g>
+  <rect class="cursor" x="300" y="331" width="9" height="17" fill="#ff8fb8"/>
+</svg>

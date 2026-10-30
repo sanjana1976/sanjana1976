@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="250" viewBox="0 0 440 250" role="img" aria-labelledby="title">
+  <title id="title">LitSynth: Turns one research question into a cited, fact-checked literature review.</title>
+  <defs>
+    <linearGradient id="sheen" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff8fb8" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#ff8fb8" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#ff8fb8" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="1" y="1" width="438" height="248" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .label { font: 600 11.5px ui-monospace, SFMono-Regular, Consolas, Menlo, monospace; fill: #ff9ec4; letter-spacing: .14em; }
+    .name { font: 500 30px Georgia, 'Times New Roman', serif; fill: #fbf4f7; }
+    .line { font: 400 14.5px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #cbb8c1; }
+    .stat { font: italic 500 24px Georgia, 'Times New Roman', serif; fill: #ff8fb8; }
+    .statl { font: 400 12.5px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8f7b85; }
+    .tag { font: 500 11.5px ui-monospace, SFMono-Regular, Consolas, Menlo, monospace; fill: #ffc2d8; }
+    .arrow { font: 600 20px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #ff8fb8; animation: nudge 2.4s ease-in-out infinite; }
+    @keyframes nudge { 50% { transform: translate(3px, -3px); } }
+    .sweep { animation: sweep 5s ease-in-out infinite; }
+    @keyframes sweep { 0% { transform: translateX(-460px); } 45%, 100% { transform: translateX(460px); } }
+  </style>
+  <rect x="1" y="1" width="438" height="248" rx="18" fill="#161216" stroke="#3a2a32" stroke-width="2"/>
+  <g clip-path="url(#card)"><g transform="skewX(-12)"><rect class="sweep" x="0" y="0" width="300" height="250" fill="url(#sheen)"/></g></g>
+  <text class="label" x="28" y="40">RESEARCH AGENT</text>
+  <text class="arrow" x="398" y="44">&#8599;</text>
+  <text class="name" x="28" y="80">LitSynth</text>
+  <text class="line" x="28" y="110">Turns one research question into a cited,</text>
+  <text class="line" x="28" y="130">fact-checked literature review.</text>
+  <text class="stat" x="28" y="170">6.5 min &#8594; 70 s</text>
+  <text class="statl" x="28" y="190">per full synthesis, via parallel fan-out</text>
+  <rect x="28" y="206" width="63" height="22" rx="11" fill="#2a1a22" stroke="#4d2e3d"/>
+  <text class="tag" x="59.5" y="221" text-anchor="middle">Python</text>
+  <rect x="99" y="206" width="85" height="22" rx="11" fill="#2a1a22" stroke="#4d2e3d"/>
+  <text class="tag" x="141.5" y="221" text-anchor="middle">LangGraph</text>
+  <rect x="192" y="206" width="63" height="22" rx="11" fill="#2a1a22" stroke="#4d2e3d"/>
+  <text class="tag" x="223.5" y="221" text-anchor="middle">SQLite</text>
+  <rect x="263" y="206" width="63" height="22" rx="11" fill="#2a1a22" stroke="#4d2e3d"/>
+  <text class="tag" x="294.5" y="221" text-anchor="middle">Docker</text>
+</svg>

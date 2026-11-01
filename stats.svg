@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="GitHub stats">
+  <defs>
+    <clipPath id="bar"><rect x="268" y="66" width="200" height="10" rx="5"/></clipPath>
+  </defs>
+  <style>
+    .title { font: 700 16px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #ff8fb8; }
+    .sub { font: 600 11px ui-monospace, SFMono-Regular, Consolas, Menlo, monospace; fill: #b9a2ff; letter-spacing: .12em; }
+    .lbl { font: 500 13.5px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #d9c7cf; }
+    .num { font: 700 15px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .lang { font: 500 12.5px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #d9c7cf; }
+    .pct { fill: #8f7b85; }
+    .row { animation: in .5s ease-out backwards; }
+    @keyframes in { from { opacity: 0; transform: translateX(-8px); } }
+    .grow { transform-box: fill-box; transform-origin: left; animation: grow 1.2s cubic-bezier(.2,.7,.2,1) backwards; }
+    @keyframes grow { from { transform: scaleX(0); } }
+  </style>
+  <rect x="1" y="1" width="493" height="193" rx="16" fill="#141016" stroke="#2e2429" stroke-width="2"/>
+  <text class="title" x="26" y="38">&#10047; Sanjana's GitHub stats</text>
+  <g class="row" style="animation-delay:0.00s"><circle cx="32" cy="73" r="5" fill="#ff8fb8"/><text class="lbl" x="46" y="78">contributions (1y)</text><text class="num" x="232" y="78" text-anchor="end" fill="#ff8fb8">363</text></g><g class="row" style="animation-delay:0.15s"><circle cx="32" cy="103" r="5" fill="#b9a2ff"/><text class="lbl" x="46" y="108">commits (1y)</text><text class="num" x="232" y="108" text-anchor="end" fill="#b9a2ff">211</text></g><g class="row" style="animation-delay:0.30s"><circle cx="32" cy="133" r="5" fill="#ffad85"/><text class="lbl" x="46" y="138">pull requests (1y)</text><text class="num" x="232" y="138" text-anchor="end" fill="#ffad85">21</text></g><g class="row" style="animation-delay:0.45s"><circle cx="32" cy="163" r="5" fill="#7fdcc0"/><text class="lbl" x="46" y="168">public repos</text><text class="num" x="232" y="168" text-anchor="end" fill="#7fdcc0">26</text></g>
+  <line x1="250" y1="58" x2="250" y2="172" stroke="#3a2a32"/>
+  <text class="sub" x="268" y="54">TOP LANGUAGES</text>
+  <g clip-path="url(#bar)"><g class="grow"><rect x="268.0" y="66" width="71.4" height="10" fill="#ff8fb8"/><rect x="339.4" y="66" width="57.1" height="10" fill="#b9a2ff"/><rect x="396.6" y="66" width="28.6" height="10" fill="#ffad85"/><rect x="425.1" y="66" width="28.6" height="10" fill="#7fdcc0"/><rect x="453.7" y="66" width="14.3" height="10" fill="#ffe08a"/></g></g>
+  <circle cx="273" cy="100" r="4.5" fill="#ff8fb8"/><text class="lang" x="283" y="104">Python <tspan class="pct">36%</tspan></text><circle cx="377" cy="100" r="4.5" fill="#b9a2ff"/><text class="lang" x="387" y="104">JavaScript <tspan class="pct">29%</tspan></text><circle cx="273" cy="126" r="4.5" fill="#ffad85"/><text class="lang" x="283" y="130">Java <tspan class="pct">14%</tspan></text><circle cx="377" cy="126" r="4.5" fill="#7fdcc0"/><text class="lang" x="387" y="130">TypeScript <tspan class="pct">14%</tspan></text><circle cx="273" cy="152" r="4.5" fill="#ffe08a"/><text class="lang" x="283" y="156">Perl <tspan class="pct">7%</tspan></text>
+</svg>

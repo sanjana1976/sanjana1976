@@ -12,10 +12,7 @@
 ### About me 🌷
 
 - Computer Science at **[UC San Diego](https://ucsd.edu)**, graduating Dec 2027
-- Specializing in backend systems, with a research interest in **tail latency across multi-tier systems**, especially pipelines where AI models and agents sit on the critical path
-- Currently:
-  - **AIDE** at CSES Innovate: voice-to-code for VS Code (**3–5 min → 2–5 s**, CPU only); now writing the research paper and running the study
-  - Prev. full-stack SWE at **Y STEM and Chess**, summer '26
+- Specializing in backend systems, with an interest in **tail latency across multi-tier systems**
 
 ---
 

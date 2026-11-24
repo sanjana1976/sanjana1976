@@ -3,7 +3,6 @@
 </a>
 
 <p align="center">
-  <a href="https://sanjana1976.github.io/personal_web/"><img src="assets/btn-website.svg" alt="Website" height="44"></a>
   <a href="https://www.linkedin.com/in/s1976"><img src="assets/btn-linkedin.svg" alt="LinkedIn" height="44"></a>
   <a href="https://sanjana1976.github.io/personal_web/Sanjana_Kalarickal_Resume.pdf"><img src="assets/btn-resume.svg" alt="Résumé" height="44"></a>
   <a href="mailto:skalarickal@ucsd.edu"><img src="assets/btn-email.svg" alt="Email me" height="44"></a>
